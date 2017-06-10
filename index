@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+HSC Batch_17
+</title>
+
+<style type="text/css">
+.myTableBg { 
+	width: 100%;
+	text-align: center;
+	background: white url(https://unknownrabby2.github.io/dd.JPG) repeat;
+	border-collapse: collapse;
+}
+
+
+.myTableBg td {
+	border-width: 1.5px;
+	font-size:20px;
+	border-top:2px inset #00ffec;
+	border-right:2px inset #028d35;
+	border-bottom:2px inset #f6007c;
+	border-left:2px inset #842ece;
+
+
+	-----other style-----
+
+	border-width:2px 2px 2px 2px;
+	border-style:inset inset inset inset;
+	border-color:#00ffec #028d35 #f6007c #842ece;
+	
+}
+ 
+
+.myTableBg th { 
+	border-width: 3px;
+	padding: 1px;
+	border-style: dotted;
+	border-color: black;
+	font-family: ;
+	color: blue;
+}
+
+
+.myTableBg {
+	border-width: 1px;
+	border-spacing: 6px;
+	border-style: solid;
+	border-color: red;
+	border-collapse: separate;
+	background-color: ;
+}
+
+
+caption {
+	background: cyan;
+	font-weight: bold;
+	font-size: 2.1em;
+}
+
+
+.myTableBg textarea {
+	font-family:Palatino Linotype ;
+	color: white;
+	font-size:25px;
+	background-color: ;
+	-moz-border-radius: ;
+}
+
+
+textarea {
+    text-align:center;
+    -moz-box-shadow: 0px 0px 14px 1px #3dc21b;
+	-webkit-box-shadow: 0px 0px 14px 1px #3dc21b;
+	box-shadow: 0px 0px 14px 1px #3dc21b;
+	background-color:transparent;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:15px;
+	padding:4px 16px;
+	text-decoration:none;
+	text-shadow:0px 0px 7px #101be3;
+	display: none;
+  
+}
+
+
+button {
+	-moz-box-shadow: 0px 0px 14px 1px #3dc21b;
+	-webkit-box-shadow: 0px 0px 14px 1px #3dc21b;
+	box-shadow: 0px 0px 14px 2px yellow;
+	background-color:transparent;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:15px;
+	padding:4px 16px;
+	text-decoration:none;
+	text-shadow:0px 0px 7px red;
+}
+
+
+.myButton:hover {
+	background-color:transparent;
+}
+
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+</style>
+
+</head>
+<body>
+<table class="myTableBg">
+   <caption>HSC Batch_17</caption>
+<tr>
+    <th class='personid' align="center">SL.</th>
+    <th align="center">Name</font></u></th>
+	<th align="center">Roll</font></font></u></th>
+    <th align="center">Result</font></u></th>
+    <th align="center">GPA</font></u></th>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Fatema</td>
+    <td align="center">
+    <textarea id="t1" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t1')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Rabby</td>
+    <td align="center">
+    <textarea id="t2" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t2')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+</tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Akash</td>
+	<td align="center"><textarea id="t3" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t3')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Abu Shama</td>
+    <td align="center"><textarea id="t4" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t4')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Limon</td>
+    <td align="center">
+    <textarea id="t5" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t5')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Zia</td>
+    <td align="center"><textarea id="t6"  rows="1" cols="10">khali chokhe dekha jabe na</textarea> <br><button onclick="copyToClipboard('t6')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Mitul</td>
+    <td align="center">
+    <textarea id="t7" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t7')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Asraful</td>
+    <td align="center"><textarea id="t8" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t8')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Shaon</td>
+    <td align="center"><textarea id="t9" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t9')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Shoyeb</td>
+    <td align="center"><textarea id="t10" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t10')">Copy Roll</button></td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Alif</td>
+    <td align="center"><textarea id="t11" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t11')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Jisun</td>
+    <td align="center"><textarea id="t12" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t12')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Eamin</td>
+    <td align="center"><textarea id="t13" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t13')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Nijhum</td>
+    <td align="center"><textarea id="t14" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t14')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Bani</td>
+    <td align="center"><textarea id="t15" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t15')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Murad</td>
+    <td align="center"><textarea id="t16" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t16')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Ema</td>
+    <td align="center"><textarea id="t17" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t17')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Mou</td>
+    <td align="center"><textarea id="t18" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t18')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Mim</td>
+    <td align="center"><textarea id="t19" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t19')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Surovi</td>
+    <td align="center"><textarea id="t20" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t20')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Seli</td>
+    <td align="center"><textarea id="t21" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t21')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Tonima</td>
+    <td align="center"><textarea id="t22" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t22')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Roja</td>
+    <td align="center"><textarea id="t23" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t23')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Nitu</td>
+    <td align="center"><textarea id="t24" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t24')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Fatema-4</td>
+    <td align="center"><textarea id="t25" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t25')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">Kona</td>
+    <td align="center"><textarea id="t26" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t26')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+<tr>
+    <td class='personid' align="center">i</td>
+    <td align="center">     </td>
+    <td align="center"><textarea id="t27" rows="1" cols="10">khali chokhe dekha jabe na</textarea><br><button onclick="copyToClipboard('t27')">Copy Roll</button></td>
+    <td align="center">      </td>
+    <td align="center">      </td>
+</tr>
+
+</table>
+
+
+<script>
+    var list = document.getElementsByClassName("personid");
+for (var i = 1; i <= list.length; i++) {
+    list[i].innerHTML = i;
+}
+</script>
+<script>
+function copyToClipboard(elementId) {
+
+  // Create a "hidden" input
+  var aux = document.createElement("input");
+
+  // Assign it the value of the specified element
+  aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+
+  // Append it to the body
+  document.body.appendChild(aux);
+
+  // Highlight its content
+  aux.select();
+
+  // Copy the highlighted text
+  document.execCommand("copy");
+
+  // Remove it from the body
+  document.body.removeChild(aux);
+
+}
+</script>
+
+</body>
+</html>
