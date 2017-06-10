@@ -16,9 +16,9 @@ var images = new Array();
 
 function randomTableBG()
 {
-    var mainTable = document.getElementById("mainTable");
+    var myTableBg = document.getElementById("myTableBg");
     var imagePos = Math.round(Math.random()*(images.length-1));
-    mainTable.style.backgroundImage = "url("+images[imagePos]+")";
+    myTableBg.style.backgroundImage = "url("+images[imagePos]+")";
 }
 </script>
 
