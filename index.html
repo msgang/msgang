@@ -4,12 +4,29 @@
 <title>
 HSC Batch_17
 </title>
+	<script>
+
+var images = new Array();
+    images.push("http://www.digital-photography-school.com/blog/wp-content/background-blur-1.jpg");
+    images.push("http://download.qj.net/uploads/files_module/screenshots/253_PSP-background-thor64.jpg");
+    images.push("http://www.processandfaith.org/images/background-ocean.jpg");
+    images.push("http://www.iburst.co.za/downloads/background/iBurst_background_orange.jpg");
+    images.push("http://3danimation.e-spaces.com/backgrounds/hd_background_american_flag.jpg");
+    images.push("http://www.troutnut.com/im_header/header_38.jpg");
+
+function randomTableBG()
+{
+    var mainTable = document.getElementById("mainTable");
+    var imagePos = Math.round(Math.random()*(images.length-1));
+    mainTable.style.backgroundImage = "url("+images[imagePos]+")";
+}
+</script>
 
 <style type="text/css">
 .myTableBg { 
 	width: 100%;
 	text-align: center;
-	background: white url(https://msgang.github.io/dd.JPG) repeat;
+	background: white url( ) repeat;
 	border-collapse: collapse;
 }
 
@@ -123,7 +140,7 @@ button {
 </style>
 
 </head>
-<body>
+<body onload="randomTableBG()">
 <table class="myTableBg">
    <caption>HSC Batch_17</caption>
 <tr>
