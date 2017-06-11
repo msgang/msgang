@@ -110,3 +110,117 @@ button {
 .myButton:active {
 	position:relative;
 	top:1px;
+	
+	
+.myTableBg { 
+	width: 100%;
+	text-align: center;
+	background: white url(dd2.JPG) repeat;
+	border-collapse: collapse;
+}
+
+.myTableBgn td {
+	border-width: 1.5px;
+	font-size:20px;
+	border-top:2px inset #00ffec;
+	border-right:2px inset #028d35;
+	border-bottom:2px inset #f6007c;
+	border-left:2px inset #842ece;
+
+
+	-----other style-----
+
+	border-width:2px 2px 2px 2px;
+	border-style:inset inset inset inset;
+	border-color:#00ffec #028d35 #f6007c #842ece;
+	
+}
+ 
+
+.myTableBgn th { 
+	border-width: 3px;
+	padding: 1px;
+	border-style: dotted;
+	border-color: black;
+	font-family: ;
+	color: blue;
+}
+
+
+.myTableBgn {
+	border-width: 1px;
+	border-spacing: 6px;
+	border-style: solid;
+	border-color: red;
+	border-collapse: separate;
+	background-color: ;
+}
+
+
+caption {
+	background: cyan;
+	font-weight: bold;
+	font-size: 2.1em;
+}
+
+
+.myTableBgn textarea {
+	font-family:Palatino Linotype ;
+	color: white;
+	font-size:25px;
+	background-color: ;
+	-moz-border-radius: ;
+}
+
+
+textarea {
+    text-align:center;
+    -moz-box-shadow: 0px 0px 14px 1px #3dc21b;
+	-webkit-box-shadow: 0px 0px 14px 1px #3dc21b;
+	box-shadow: 0px 0px 14px 1px #3dc21b;
+	background-color:transparent;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:15px;
+	padding:4px 16px;
+	text-decoration:none;
+	text-shadow:0px 0px 7px #101be3;
+	display: ;
+  
+}
+
+
+button {
+	-moz-box-shadow: 0px 0px 14px 1px #3dc21b;
+	-webkit-box-shadow: 0px 0px 14px 1px #3dc21b;
+	box-shadow: 0px 0px 14px 2px yellow;
+	background-color:transparent;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:15px;
+	padding:4px 16px;
+	text-decoration:none;
+	text-shadow:0px 0px 7px red;
+}
+
+
+.myButton:hover {
+	background-color:transparent;
+}
+
+
+.myButton:active {
+	position:relative;
+	top:1px;
