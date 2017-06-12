@@ -1,3 +1,24 @@
+#container {
+    width:100%;
+    text-align:center;
+}
+
+#left {
+    float:left;
+    width:33%;
+}
+
+#center {
+    display: inline-block;
+    margin:0 auto;
+    width:33%;
+}
+
+#right {
+    float:right;
+    width:33%;
+}
+
 p{
 	text-align: center;
 	font-family:Times New Roman;
