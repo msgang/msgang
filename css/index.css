@@ -25,7 +25,8 @@ element.style {
 
 #left {
     float:left;
-    width:33%;
+    width:40px;
+    height:20px
 }
 
 #center {
