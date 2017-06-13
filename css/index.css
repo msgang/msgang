@@ -26,20 +26,20 @@ element.style {
 #left {
     float:left;
     width:180px;
-    height:120px
+    height:120px;
 }
 
 #center {
     display: inline-block;
     margin:0 auto;
     width:180px;
-    height:120px
+    height:120px;
 }
 
 #right {
     float:right;
     width:180px;
-    height:120px
+    height:120px;
 }
 
 p{
