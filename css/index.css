@@ -125,7 +125,7 @@ button {
 .myTableBggirls { 
 	width: 100%;
 	text-align: center;
-	background: white url(girls.gif) repeat;
+	background: white url(/uploads/girls.gif) repeat;
 	border-collapse: collapse;
 }
 
@@ -179,7 +179,7 @@ button {
 .myTableBgboys { 
 	width: 100%;
 	text-align: center;
-	background: white url(boys.jpg) repeat;
+	background: white url(/uploads/boys.jpg) repeat;
 	border-collapse: collapse;
 }
 
@@ -238,7 +238,7 @@ button {
 .myTableBgwithoutgang { 
 	width: 100%;
 	text-align: center;
-	background: white url(withoutgang.png) repeat;
+	background: white url(/uploads/withoutgang.png) repeat;
 	border-collapse: collapse;
 }
 
