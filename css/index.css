@@ -25,19 +25,21 @@ element.style {
 
 #left {
     float:left;
-    width:40px;
+    width:80px;
     height:20px
 }
 
 #center {
     display: inline-block;
     margin:0 auto;
-    width:33%;
+    width:80px;
+    height:20px
 }
 
 #right {
     float:right;
-    width:33%;
+    width:80px;
+    height:20px
 }
 
 p{
