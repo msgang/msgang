@@ -32,7 +32,7 @@ function go(){
 </head>
 <body onLoad="init();">
 <body bgcolor="#000000">
-	
+	<div class="clock" style="margin:2em;"></div>
 
 <br>
 <center>
@@ -529,7 +529,15 @@ function go(){
 <p style="display: inline-block; text-align: right; width: 100%"><b>Powered by Maya©</b></p>
     </div>
 
-	
+<script type="text/javascript">
+			var clock;
+			
+			$(document).ready(function() {
+				clock = $('.clock').FlipClock({
+					clockFace: 'TwelveHourClock'
+				});
+			});
+		</script>
 	
 <script type="text/javascript">
     var list = document.getElementsByClassName("personidgirls");
