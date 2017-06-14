@@ -10,8 +10,8 @@ var clockcanvas;
 clockcanvas=new canvas(640,132);
 
 var clock_face=[];
-clock_face[0]=new image('http://msgang.github.io/clock/flip_clock.png');
-clock_face[1]=new image('http://msgang.github.io/clock/flip_clock_bl.png');
+clock_face[0]=new image('https://msgang.github.io/clock/flip_clock.png');
+clock_face[1]=new image('https://msgang.github.io/clock/flip_clock_bl.png');
 
 clock_face[0].initTile(76.8,131);
 clock_face[1].initTile(76.8,131);
