@@ -33,6 +33,19 @@ function go(){
 </head>
 <body onLoad="init();">
 <body bgcolor="#000000">
+	<div class="clock" style="margin:2em;"></div>
+
+		<script type="text/javascript">
+			var clock;
+			
+			$(document).ready(function() {
+				var date = new Date('2014-01-01 05:02:12 pm');
+
+				clock = $('.clock').FlipClock(date, {
+					clockFace: 'TwelveHourClock'
+				});
+			});
+		</script>
 
 <br>
 <center>
