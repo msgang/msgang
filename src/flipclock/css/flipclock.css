@@ -1,6 +1,6 @@
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
-.clock {
+.flip-clock-wrapper {
   position: absolute;
   width: 400px;
   height: 100px;
