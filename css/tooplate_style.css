@@ -7,13 +7,19 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #262e34;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: Comic Sans MS, sans-serif;
 	font-size: 13px;
 	line-height: 1.5em; 
 	background-color: #262e34;
 	background-image: url(../images/tooplate_body.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
+}
+#farewell  {
+    color: #20b7c9;
+    font-family:Comic Sans MS ;
+    font-size: 30px;
+    font-weight:;
 }
 
 a, a:link, a:visited { 
