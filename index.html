@@ -5,6 +5,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="https://msgang.github.io/compiled/flipclock.css">
+	<link rel="stylesheet" type="text/css" href="welcome.css">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
 <script src="https://msgang.github.io/compiled/flipclock.js"></script>
 
@@ -60,9 +62,28 @@ function go(){
         </div>
       </div>
       <!-- CONTENT -->
-<br>
-<br>
-<br>
+<div class="wh-widget-hello-popup-wrapper wh-popup-left popup-slide popup-slide-in" id="wh-popup-hello">
+	<div class="wh-widget-hello-popup">
+<div class="wh-widget-hello-popup-close" wh-click="closeHelloPopup">
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+<path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+</div>
+<div class="wh-widget-hello-popup-content">
+<div class="wh-widget-hello-popup-content-logo">
+<img wh-src="logoUrl" src="mukaddes sir.jpg">
+</div>
+<div class="wh-widget-hello-popup-content-text" wh-click="showMessengers">
+<a wh-href="href" wh-target="target" href="javascript:void(0);">
+<div wh-html-br="text">আচ্ছামুআলাইকুম, খন্দকার কোচিং সেন্টারের ওয়েব পোর্টালে আপনাকে স্বাগতম</div>
+</a>
+</div>
+<div class="wh-clear"></div>
+</div>
+<div class="wh-messengers wh-hide" wh-multi-class="{'wh-hide': '!showMessengersIcons'}"><ul wh-html-element="buttons"></ul></div>
+	</div>
+</div>
 <br>
 <br>
 <br>
